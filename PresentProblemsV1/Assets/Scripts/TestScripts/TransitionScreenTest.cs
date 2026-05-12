@@ -1,13 +1,15 @@
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Assertions.Must;
+using UnityEngine.SceneManagement;
 
 
 public class TransitionScreenTest : MonoBehaviour
 {
     public Vector2 Newspawn;
     public Vector3 CameraNewPos;
-    public Camera cam;
+    public Camera Cam;
+    public string SceneToLoad;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,21 +25,35 @@ public class TransitionScreenTest : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (SceneToLoad != null)
+        {
+            SceneTransition();
+        }
+        else
+        {
+            collision.gameObject.GetComponent<TestMovement>().agent.ResetPath();
 
-        collision.gameObject.GetComponent<TestMovement>().agent.ResetPath();
+            collision.gameObject.GetComponent<TestMovement>().agent.Warp(new Vector3(Newspawn.x, Newspawn.y, transform.position.z));
 
-        collision.gameObject.GetComponent<TestMovement>().agent.Warp( new Vector3(Newspawn.x, Newspawn.y, transform.position.z));
+            collision.gameObject.GetComponent<TestMovement>().GoToLocation = Newspawn;
 
-        collision.gameObject.GetComponent<TestMovement>().GoToLocation = Newspawn;
+            //collision.gameObject.GetComponent<TestMovement>().newroom();
+            Cam.transform.position = CameraNewPos;
+            //Debug.Log("why");
+        }
 
-        //collision.gameObject.GetComponent<TestMovement>().newroom();
-        cam.transform.position = CameraNewPos;
-        //Debug.Log("why");
+
 
 
     }
 
+    public void SceneTransition()
+    {
+        //SceneToLoad = SceneName;
+        SceneManager.LoadScene(SceneToLoad);
 
+
+    }
 
 
 }
