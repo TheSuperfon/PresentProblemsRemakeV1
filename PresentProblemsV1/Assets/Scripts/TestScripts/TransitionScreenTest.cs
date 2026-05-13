@@ -11,6 +11,8 @@ public class TransitionScreenTest : MonoBehaviour
     public Camera Cam;
     public string SceneToLoad;
 
+    public bool SceneBool;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,7 +27,7 @@ public class TransitionScreenTest : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (SceneToLoad != null)
+        if (SceneBool == true)
         {
             SceneTransition();
         }

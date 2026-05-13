@@ -41,6 +41,7 @@ public class MovementTest1 : MonoBehaviour
     {
 
         agent.SetDestination(point);
+        //Debug.Log("oof");
 
     }
 
