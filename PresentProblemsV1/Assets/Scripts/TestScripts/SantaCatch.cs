@@ -26,7 +26,7 @@ public class SantaCatch : MonoBehaviour
     {
         if (!done)
         {
-            if (CatchNumb >= 3)
+            if (CatchNumb < 3)
             {
                 collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
             }
@@ -35,6 +35,13 @@ public class SantaCatch : MonoBehaviour
                 CatchNumb += 1;
 
             }
+
+            if (CatchNumb >= 3)
+            {
+
+                Debug.Log("caught");
+            }
+
             //Debug.Log("ok");
         }
         
