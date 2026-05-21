@@ -44,7 +44,7 @@ public class TestMovement : MonoBehaviour
     public void newroom()
     {
         agent.ResetPath();
-        Debug.Log("test");
+        //Debug.Log("test");
         agent.SetDestination(new Vector3(transform.position.x, transform.position.y, transform.position.z));
 
     }

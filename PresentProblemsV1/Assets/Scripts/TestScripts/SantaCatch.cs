@@ -3,7 +3,8 @@ using UnityEngine;
 public class SantaCatch : MonoBehaviour
 {
 
-    float CatchNumb;
+    public float CatchNumb;
+    public float CatchCap;
     bool done;
 
     public Vector3 CatchBack;
@@ -29,18 +30,15 @@ public class SantaCatch : MonoBehaviour
             if (CatchNumb < 3)
             {
                 collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
+                CatchNumb += 1;
             }
             else
             {
-                CatchNumb += 1;
-
-            }
-
-            if (CatchNumb >= 3)
-            {
-
                 Debug.Log("caught");
+
             }
+
+            
 
             //Debug.Log("ok");
         }
