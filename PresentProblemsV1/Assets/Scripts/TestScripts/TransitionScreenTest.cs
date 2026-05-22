@@ -29,7 +29,7 @@ public class TransitionScreenTest : MonoBehaviour
     {
         if (SceneBool == true)
         {
-            SceneTransition();
+            SceneTransition(SceneToLoad);
         }
         else
         {
@@ -49,10 +49,10 @@ public class TransitionScreenTest : MonoBehaviour
 
     }
 
-    public void SceneTransition()
+    public void SceneTransition(string SceneName)
     {
         //SceneToLoad = SceneName;
-        SceneManager.LoadScene(SceneToLoad);
+        SceneManager.LoadScene(SceneName);
 
 
     }

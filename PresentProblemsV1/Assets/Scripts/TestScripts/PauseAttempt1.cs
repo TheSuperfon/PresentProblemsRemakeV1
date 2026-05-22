@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class PauseAttempt1 : MonoBehaviour
 {
+    public bool inventoryOut;
+    public GameObject InventoryOBJ;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        inventoryOut = false;
 
 
     }
@@ -20,4 +22,22 @@ public class PauseAttempt1 : MonoBehaviour
 
 
     }
+
+    public void inventoryButton()
+    {
+        if (inventoryOut)
+        {
+            InventoryOBJ.SetActive(false);
+            inventoryOut = false;
+        }
+        else
+        {
+            inventoryOut = true;
+            InventoryOBJ.SetActive(true);
+        }
+
+
+
+    }
+
 }

@@ -4,6 +4,7 @@ public class OverlapScreenScript : MonoBehaviour
 {
     public Camera Cam;
     public Vector3 CameraNewPos;
+    public Vector3 LastCameraPos;
     public bool LookAt;
 
     GameObject playerRef;
@@ -42,6 +43,8 @@ public class OverlapScreenScript : MonoBehaviour
             playerRef = collision.gameObject;
             playerRef.GetComponent<TestMovement>().enabled = false;
 
+            LastCameraPos = Cam.transform.position;
+
             Cam.transform.position = CameraNewPos;
 
         }
@@ -55,7 +58,7 @@ public class OverlapScreenScript : MonoBehaviour
     {
         playerRef.gameObject.GetComponent<TestMovement>().enabled = true;
 
-
+        Cam.transform.position = LastCameraPos;
 
     }
 
