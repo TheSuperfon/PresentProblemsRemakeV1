@@ -1,0 +1,9 @@
+using UnityEngine;
+
+public class SceneChecks : MonoBehaviour
+{
+    public static bool QTECompleted = false;
+    public static bool QTEFailed = false;
+    public static bool FromChimney = false;
+
+}

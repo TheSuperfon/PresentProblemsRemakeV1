@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class TestMovement : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class TestMovement : MonoBehaviour
 
     public NavMeshAgent agent;
     public Vector2 GoToLocation;
-
+    public Camera Cam;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,31 @@ public class TestMovement : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         GoToLocation = transform.position;
+
+
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "WalkingTest1")
+        {
+            if (SceneChecks.FromChimney)
+            {
+                Cam.transform.position = new Vector3(30, 0, -10);
+                agent.ResetPath();
+                agent.Warp(new Vector3(25, -0.45f, 0));
+                GoToLocation = transform.position;
+                SceneChecks.FromChimney = false;
+            }
+            else
+            {
+                Cam.transform.position = new Vector3(0, 0, -10);
+                agent.ResetPath();
+                agent.Warp(new Vector3(0, -1.84f, 0));
+                GoToLocation = transform.position;
+            }
+
+
+
+
+        }
     }
 
     // Update is called once per frame
@@ -41,7 +67,7 @@ public class TestMovement : MonoBehaviour
         Debug.Log("test");
     }
 
-    public void newroom()
+    /*public void newroom()
     {
         agent.ResetPath();
         //Debug.Log("test");
@@ -49,7 +75,7 @@ public class TestMovement : MonoBehaviour
 
     }
 
-    /*public IEnumerator MoveToPoint(Vector2 point)
+    public IEnumerator MoveToPoint(Vector2 point)
     {
         Vector2 positionDifference = point - (Vector2)player.position;
         while (positionDifference.magnitude > moveAccuracy)

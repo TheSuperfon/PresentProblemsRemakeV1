@@ -376,6 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TestMovement
   agent: {fileID: 0}
   GoToLocation: {x: 0, y: 0}
+  Cam: {fileID: 1176041246}
 --- !u!70 &108978960
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -773,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TransitionScreenTest
   Newspawn: {x: 0, y: -1.84}
   CameraNewPos: {x: 0, y: 0, z: -10}
-  Cam: {fileID: 0}
+  Cam: {fileID: 1176041246}
   SceneToLoad: 
   SceneBool: 0
 --- !u!60 &333200900

@@ -210,6 +210,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &326349512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326349514}
+  - component: {fileID: 326349513}
+  m_Layer: 0
+  m_Name: SceneTransition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &326349513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326349512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c90428d01ff05b41aa11238fd2ee23f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneTransition
+  Menu: {fileID: 0}
+  Splash: {fileID: 0}
+--- !u!4 &326349514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326349512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.35752, y: -2.09483, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1202860624
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,8 +394,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QTETestScript
   QTEObj: {fileID: 323993215}
+  RepeatNum: 4
   activateQTE: 0
-  QTETimeValue: 5
+  QTETimeValue: 3
+  sceneReference: {fileID: 326349513}
   locations:
   - {x: 0, y: 3, z: 0}
   - {x: -3, y: 0, z: 0}
@@ -418,7 +466,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -38
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5758017873666565457, guid: 59a670b431501d14fb051a4e5cdc070c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -544,3 +592,4 @@ SceneRoots:
   - {fileID: 1504439349}
   - {fileID: 1503381832}
   - {fileID: 1779837158}
+  - {fileID: 326349514}
