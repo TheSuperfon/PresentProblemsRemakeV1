@@ -42,6 +42,10 @@ public class SceneTransition : MonoBehaviour
 
 
     }
+    public void dinoChoice()
+    {
+        SceneChecks.DinoChoice = true;
+    }
 
 
 }

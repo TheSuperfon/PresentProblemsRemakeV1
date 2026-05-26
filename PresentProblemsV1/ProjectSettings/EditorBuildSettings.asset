@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FailScreens/PepperEnding.unity
     guid: 9bc2a331cb2cd9045ab67a0bb248ac9d
+  - enabled: 1
+    path: Assets/Scenes/ProtoScenes/QTETest.unity
+    guid: ca58c40ecc1e98144a0d7a6c9ae63bd0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

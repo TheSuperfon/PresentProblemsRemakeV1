@@ -777,6 +777,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   SceneToLoad: 
   SceneBool: 0
+  higherGround: 0
 --- !u!60 &333200900
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -959,6 +960,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   SceneToLoad: 
   SceneBool: 0
+  higherGround: 0
 --- !u!60 &383320618
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1388,6 +1390,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   SceneToLoad: 
   SceneBool: 0
+  higherGround: 0
 --- !u!60 &619872863
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2686,6 +2689,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   SceneToLoad: UpstairsTest1
   SceneBool: 1
+  higherGround: 0
 --- !u!60 &1145948934
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3105,6 +3109,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   SceneToLoad: 
   SceneBool: 0
+  higherGround: 0
 --- !u!60 &1267506968
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5042,6 +5047,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   SceneToLoad: 
   SceneBool: 0
+  higherGround: 0
 --- !u!60 &2059217618
 PolygonCollider2D:
   m_ObjectHideFlags: 0
