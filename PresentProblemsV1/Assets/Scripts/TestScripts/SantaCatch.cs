@@ -5,6 +5,7 @@ public class SantaCatch : MonoBehaviour
 
     public float CatchNumb;
     public float CatchCap;
+    public Camera Cam;
     bool done;
 
     public Vector3 CatchBack;
@@ -25,8 +26,9 @@ public class SantaCatch : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!done)
+        if (!done && (SceneChecks.CouchWarning == false))
         {
+            Debug.Log(SceneChecks.CouchWarning);
             if (CatchNumb < 3)
             {
                 collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
@@ -47,9 +49,28 @@ public class SantaCatch : MonoBehaviour
 
     }
 
+    public void ToyWithSanta()
+    {
+        if (Cam.transform.position == new Vector3(30, 0, -10))
+        {
+            SceneChecks.CouchWarning = true;
+            Debug.Log("toy");
+        }
+
+        Debug.Log(SceneChecks.CouchWarning);
+
+    }
+
+
+
     private void OnTriggerStay2D(Collider2D collision)
     {
-        collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
+        if (SceneChecks.CouchWarning == false)
+        {
+            collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
+        }
+
+        
 
 
     }

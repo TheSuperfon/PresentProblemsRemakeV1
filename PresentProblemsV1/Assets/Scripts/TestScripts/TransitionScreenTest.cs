@@ -64,7 +64,7 @@ public class TransitionScreenTest : MonoBehaviour
                     //collision.gameObject.GetComponent<TestMovement>().newroom();
                     Cam.transform.position = CameraNewPos;
                     //Debug.Log("why");
-
+                    lookat = false;
                 }
 
             }

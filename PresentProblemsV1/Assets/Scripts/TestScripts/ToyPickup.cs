@@ -30,16 +30,19 @@ public class ToyPickup : MonoBehaviour
 
     private void OnMouseOver()
     {
-        
+        Debug.Log("eee");
         if (Input.GetMouseButtonDown(0))
         {
+            
             if (SceneChecks.DinoChoice)
             {
                 InventoryReference.activateDino();
+                dinoOBJ.SetActive(false);
             }
             else
             {
                 InventoryReference.activateBlocks();
+                blocksOBJ.SetActive(false);
             }
 
 

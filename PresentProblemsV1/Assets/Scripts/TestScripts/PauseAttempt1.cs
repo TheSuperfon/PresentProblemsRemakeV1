@@ -6,11 +6,22 @@ public class PauseAttempt1 : MonoBehaviour
     public GameObject InventoryOBJ;
     public GameObject dino;
     public GameObject block;
+    public GameObject empty;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         inventoryOut = false;
+
+
+        if (SceneChecks.inventoryEmpty)
+        {
+            empty.SetActive(true);
+        }
+        else
+        {
+            empty.SetActive(false);
+        }
 
         if (SceneChecks.toyActive)
         {
@@ -57,6 +68,7 @@ public class PauseAttempt1 : MonoBehaviour
     {
         dino.SetActive(true);
         SceneChecks.toyActive = true;
+        SceneChecks.inventoryEmpty = false;
     }
 
 
@@ -64,6 +76,7 @@ public class PauseAttempt1 : MonoBehaviour
     {
         block.SetActive(true);
         SceneChecks.toyActive = true;
+        SceneChecks.inventoryEmpty = false;
     }
 
 

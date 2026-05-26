@@ -9,4 +9,9 @@ public class SceneChecks : MonoBehaviour
     public static bool DinoChoice = false;
     public static bool toyActive = false;
 
+    public static bool FireplaceSantaCheck = false;
+    public static bool CouchWarning = false;
+    public static bool inventoryEmpty = true;
+
+
 }

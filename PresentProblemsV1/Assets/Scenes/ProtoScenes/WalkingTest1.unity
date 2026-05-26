@@ -1243,6 +1243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SantaCatch
   CatchNumb: 0
   CatchCap: 0
+  Cam: {fileID: 1176041246}
   CatchBack: {x: 25, y: 0.45, z: 0}
 --- !u!1 &521393050 stripped
 GameObject:
@@ -5659,6 +5660,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2766801117378899818, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2766801117378899818, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 512399354}
+    - target: {fileID: 2766801117378899818, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToyWithSanta
+      objectReference: {fileID: 0}
+    - target: {fileID: 2766801117378899818, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SantaCatch, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414957932111567597, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414957932111567597, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 512399354}
+    - target: {fileID: 3414957932111567597, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToyWithSanta
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414957932111567597, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SantaCatch, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3892992187098068647, guid: abd3848311e28324a985507b619bb124, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -5674,6 +5707,38 @@ PrefabInstance:
     - target: {fileID: 6082087956096626491, guid: abd3848311e28324a985507b619bb124, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366807789466019063, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366807789466019063, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 512399354}
+    - target: {fileID: 7366807789466019063, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToyWithSanta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366807789466019063, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SantaCatch, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734781785606146035, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734781785606146035, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 512399354}
+    - target: {fileID: 8734781785606146035, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToyWithSanta
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734781785606146035, guid: abd3848311e28324a985507b619bb124, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SantaCatch, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
