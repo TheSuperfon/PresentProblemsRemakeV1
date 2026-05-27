@@ -13,6 +13,7 @@ public class SceneChecks : MonoBehaviour
     public static bool CouchWarning = false;
     public static bool inventoryEmpty = true;
     public static float PresentCheck = 0f;
+    public static float StockingCheck = 0f;
 
 
 

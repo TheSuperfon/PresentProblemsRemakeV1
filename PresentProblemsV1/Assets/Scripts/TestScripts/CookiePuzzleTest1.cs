@@ -52,11 +52,9 @@ public class CookiePuzzleTest1 : MonoBehaviour
     public void PresentAdd()
     {
         SceneChecks.PresentCheck += 1;
+        Debug.Log(SceneChecks.PresentCheck);
 
-        if (SceneChecks.PresentCheck == 5)
-        {
-            SceneTransitionScript.LoadScene("QTEFinal");
-        }
+        CheckIfDone();
     }
 
     public void PresentSubtract()
@@ -66,6 +64,33 @@ public class CookiePuzzleTest1 : MonoBehaviour
 
     }
 
+    public void StockingAdd()
+    {
+        SceneChecks.StockingCheck += 1;
+        Debug.Log(SceneChecks.PresentCheck);
 
+        CheckIfDone();
+    }
+
+    public void StockingSubtract()
+    {
+        SceneChecks.StockingCheck -= 1;
+
+
+    }
+
+
+    void CheckIfDone()
+    {
+
+        
+
+        if ((SceneChecks.PresentCheck == 5) && (SceneChecks.StockingCheck == 2))
+        {
+            SceneTransitionScript.LoadScene("QTEFinal");
+        }
+
+
+    }
 
 }

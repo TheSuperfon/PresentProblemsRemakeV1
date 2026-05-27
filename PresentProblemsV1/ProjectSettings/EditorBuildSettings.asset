@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ProtoScenes/QTEFinal.unity
     guid: 416e74c6c0c41e7478cd87e1b7dd31dc
+  - enabled: 1
+    path: Assets/Scenes/GoodEndings/BestEnding.unity
+    guid: c8da718ff524fc64eb432a527c58dbb6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
