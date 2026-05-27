@@ -16,6 +16,9 @@ public class QTETestScript : MonoBehaviour
     public float QTETimeValue;
     int LocationChoice; //0 = up 1 = left, 2 = right, 
     public SceneTransition sceneReference;
+    public string SceneNext;
+    public string ScenePrevious;
+
 
     [SerializeField] public List<Vector3> locations = new();
 
@@ -55,7 +58,7 @@ public class QTETestScript : MonoBehaviour
                     activateQTE = false;
                     SceneChecks.QTECompleted = true;
                     SceneChecks.FromChimney = true;
-                    sceneReference.LoadScene("WalkingTest1");
+                    sceneReference.LoadScene(SceneNext);
                 }
             }
         }

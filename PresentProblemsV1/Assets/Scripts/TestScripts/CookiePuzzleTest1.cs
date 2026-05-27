@@ -49,6 +49,23 @@ public class CookiePuzzleTest1 : MonoBehaviour
 
     }
 
+    public void PresentAdd()
+    {
+        SceneChecks.PresentCheck += 1;
+
+        if (SceneChecks.PresentCheck == 5)
+        {
+            SceneTransitionScript.LoadScene("QTEFinal");
+        }
+    }
+
+    public void PresentSubtract()
+    {
+        SceneChecks.PresentCheck -= 1;
+
+
+    }
+
 
 
 }

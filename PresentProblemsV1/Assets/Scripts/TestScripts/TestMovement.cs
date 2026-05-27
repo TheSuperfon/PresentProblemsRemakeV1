@@ -51,6 +51,14 @@ public class TestMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            SceneChecks.CouchWarning = true;
+
+
+        }
+
+
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
