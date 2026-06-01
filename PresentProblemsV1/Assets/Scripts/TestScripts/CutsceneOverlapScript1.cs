@@ -1,16 +1,62 @@
 using UnityEngine;
+using UnityEngine.Video;
 
 public class CutsceneOverlapScript1 : MonoBehaviour
 {
+
+    public VideoPlayer videoPlayer;
+    public TestMovement playerRef;
+    bool videoActive = false;
+    public GameObject screen;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        videoPlayer = GetComponent<VideoPlayer>();
+        videoActive = false;
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (SceneChecks.SeenCutscene == false && !videoPlayer.isPlaying)
+        {
+            videoPlayer.Play();
+            videoActive = true;
+            playerRef.GetComponent<TestMovement>().enabled = false;
+        }
+        if (!videoPlayer.isPlaying && videoActive)
+        {
+            //Debug.Log("finished");
+            videoActive = false;
+            SceneChecks.SeenCutscene = true;
+
+        }
+        videoPlayer.loopPointReached += EndReached;
+
     }
+
+    void EndReached(UnityEngine.Video.VideoPlayer vp)
+    {
+        Debug.Log("fish");
+        playerRef.GetComponent<TestMovement>().enabled = true;
+        screen.SetActive(false);
+    }
+
+
+    public void oof(UnityEngine.Video.VideoPlayer vp)
+    {
+
+    }
+
+
+
+
+
+
+
+
+
 }
