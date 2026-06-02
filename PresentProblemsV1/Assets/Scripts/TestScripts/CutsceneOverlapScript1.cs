@@ -14,6 +14,7 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     public bool StopPlayer;
     public bool FinishedSceneTransition;
     public string sceneName;
+    public bool OneAndDone;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,9 +23,10 @@ public class CutsceneOverlapScript1 : MonoBehaviour
         videoPlayer = GetComponent<VideoPlayer>();
         videoActive = false;
 
-        if (SceneChecks.SeenCutscene == true)
+        if (OneAndDone && SceneChecks.SeenCutscene == true)
         {
             screen.SetActive(false);
+            videoPlayer.Stop();
         }
         else
         {

@@ -4580,9 +4580,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 8b3cd49522a8361428783824e7ca4e40, type: 3}
+    - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 4b23e5bca6530cf4baf919da8068e63e, type: 2}
     - target: {fileID: 4102040248346876656, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4679,6 +4687,10 @@ PrefabInstance:
       propertyPath: FinishedSceneTransition
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6914947062386272203, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 8400000, guid: 4b23e5bca6530cf4baf919da8068e63e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4784,6 +4796,10 @@ PrefabInstance:
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 108978959}
+    - target: {fileID: 6649035041831201415, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: OneAndDone
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6649035041831201415, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: StopPlayer
       value: 1
