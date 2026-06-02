@@ -6,6 +6,8 @@ public class CookiePuzzleTest1 : MonoBehaviour
     public Vector3 CookieCameraPOS;
     public Camera Camera;
     public SceneTransition SceneTransitionScript;
+    public GameObject peanutCutscene;
+    public GameObject pepperCutscene;
     //public string PowderName;
 
 
@@ -28,11 +30,13 @@ public class CookiePuzzleTest1 : MonoBehaviour
         {
             if (PowderName == "Peanut") //possibly use scenetransition with powderName (Sugar cutscene could start back here)
             {
-                SceneTransitionScript.LoadScene("PeanutEnding");
+                //SceneTransitionScript.LoadScene("PeanutEnding");
+                peanutCutscene.SetActive(true);
             }
             else if (PowderName == "Pepper")
             {
-                SceneTransitionScript.LoadScene("PepperEnding");
+                //SceneTransitionScript.LoadScene("PepperEnding");
+                pepperCutscene.SetActive(true);
             }
             else
             {
