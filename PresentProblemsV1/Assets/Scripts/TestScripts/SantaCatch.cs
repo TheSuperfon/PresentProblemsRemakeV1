@@ -10,11 +10,14 @@ public class SantaCatch : MonoBehaviour
 
     public Vector3 CatchBack;
 
+    public GameObject CutsceneObj;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CatchNumb = 0;
         done = false;
+        CutsceneObj.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,13 +32,15 @@ public class SantaCatch : MonoBehaviour
         if (!done && (SceneChecks.CouchWarning == false))
         {
             Debug.Log(SceneChecks.CouchWarning);
-            if (CatchNumb < 3)
+            if (CatchNumb < CatchCap)
             {
                 collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
                 CatchNumb += 1;
             }
             else
             {
+                CutsceneObj.SetActive(true);
+                CutsceneObj.transform.GetChild(1).transform.gameObject.SetActive(true);
                 Debug.Log("caught");
 
             }

@@ -9,7 +9,12 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     bool videoActive = false;
     public GameObject screen;
 
+    public SceneTransition sceneTransition;
+
     public bool StopPlayer;
+    public bool FinishedSceneTransition;
+    public string sceneName;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -59,6 +64,12 @@ public class CutsceneOverlapScript1 : MonoBehaviour
             playerRef.GetComponent<TestMovement>().enabled = true;
         }
         
+        if (FinishedSceneTransition)
+        {
+            sceneTransition.LoadScene(sceneName);
+        }
+
+
         screen.SetActive(false);
     }
 
