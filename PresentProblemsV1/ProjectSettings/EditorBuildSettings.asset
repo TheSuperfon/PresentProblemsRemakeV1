@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GoodEndings/BestEnding.unity
     guid: c8da718ff524fc64eb432a527c58dbb6
+  - enabled: 1
+    path: Assets/Scenes/MainMenuAttempt1.unity
+    guid: 884a5c73c14cb1347b605ec2837a918a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

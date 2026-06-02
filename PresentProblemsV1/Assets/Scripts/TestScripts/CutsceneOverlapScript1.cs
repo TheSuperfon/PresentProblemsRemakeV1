@@ -16,10 +16,13 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     public string sceneName;
     public bool OneAndDone;
 
+    bool NoLoop;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        NoLoop = true;
         videoPlayer = GetComponent<VideoPlayer>();
         videoActive = false;
 
@@ -66,9 +69,10 @@ public class CutsceneOverlapScript1 : MonoBehaviour
             playerRef.GetComponent<TestMovement>().enabled = true;
         }
         
-        if (FinishedSceneTransition)
+        if (FinishedSceneTransition && NoLoop)
         {
             sceneTransition.LoadScene(sceneName);
+            NoLoop = false;
         }
 
 
