@@ -273,6 +273,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 7d4f2d8d38589d741ae405565dc0b3fc, type: 3}
+    - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
@@ -386,6 +390,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 7c57a64b1ce5b66448804d89b1b340e7, type: 3}
     - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1
@@ -719,6 +727,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: a38b740f8280c2c4abf26153bf1363b1, type: 3}
+    - target: {fileID: 1586221161881937281, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
@@ -860,7 +872,7 @@ MonoBehaviour:
   QTEObj: {fileID: 323993215}
   RepeatNum: 4
   activateQTE: 0
-  QTETimeValue: 3
+  QTETimeValue: 2.5
   sceneReference: {fileID: 326349513}
   SceneNext: WalkingTest1
   ScenePrevious: 
@@ -869,6 +881,7 @@ MonoBehaviour:
   - {x: -3, y: 0, z: 0}
   - {x: 3, y: 0, z: 0}
   cutsceneList:
+  - {fileID: 1281257980}
   - {fileID: 1281257980}
   - {fileID: 598188883}
   - {fileID: 1151884346}

@@ -16,6 +16,8 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     public string sceneName;
     public bool OneAndDone;
 
+    public bool resetable;
+
     bool NoLoop;
 
 
