@@ -21,6 +21,10 @@ public class QTETestScript : MonoBehaviour
 
 
     [SerializeField] public List<Vector3> locations = new();
+    [SerializeField] public List<GameObject> cutsceneList = new();
+
+    //[SerializeField] public Dictionary<Vector3,GameObject> locationDict = new();
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,7 +54,7 @@ public class QTETestScript : MonoBehaviour
 
                 timer = QTETimeValue;
                 LocationChoice = Random.Range(0, 3);
-                Debug.Log("success");
+                //Debug.Log("success");
                 CurrentNum += 1;
 
                 if (CurrentNum >= RepeatNum)
@@ -69,6 +73,40 @@ public class QTETestScript : MonoBehaviour
 
     }
 
+
+    private void OnMouseOver()
+    {
+        Debug.Log("overlap");
+
+        if (activateQTE)
+        {
+
+
+
+
+            if (Input.GetMouseButtonDown(0))
+            {
+
+                QTEObj.SetActive(false);
+
+                timer = QTETimeValue;
+                LocationChoice = Random.Range(0, 3);
+                //Debug.Log("success");
+                CurrentNum += 1;
+
+                if (CurrentNum >= RepeatNum)
+                {
+                    activateQTE = false;
+                    SceneChecks.QTECompleted = true;
+                    SceneChecks.FromChimney = true;
+                    sceneReference.LoadScene(SceneNext);
+                }
+            }
+        }
+
+    }
+
+
     private void FixedUpdate()
     {
 
@@ -80,6 +118,20 @@ public class QTETestScript : MonoBehaviour
             {
                 QTEObj.SetActive(true);
                 QTEObj.transform.position = locations[LocationChoice];
+                if (LocationChoice == 0)
+                {
+                    cutsceneList[Random.Range(0, 2)].gameObject.SetActive(true);
+
+
+                }
+                else
+                {
+                    cutsceneList[LocationChoice].gameObject.SetActive(true);
+
+
+                }
+
+
             }
             timer -= Time.deltaTime;
 
