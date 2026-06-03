@@ -64,7 +64,9 @@ public class QTETestScript : MonoBehaviour
                     activateQTE = false;
                     SceneChecks.QTECompleted = true;
                     SceneChecks.FromChimney = true;
-                    sceneReference.LoadScene(SceneNext);
+                    cutsceneList[4].gameObject.SetActive(true);
+                    //sceneReference.LoadScene(SceneNext);
+
                 }
             }
         }
@@ -76,36 +78,8 @@ public class QTETestScript : MonoBehaviour
     }
 
 
-    private void OnMouseOver()
+    public void buttonPressed()
     {
-        Debug.Log("overlap");
-
-        if (activateQTE)
-        {
-
-
-
-
-            if (Input.GetMouseButtonDown(0))
-            {
-
-                QTEObj.gameObject.SetActive(false);
-                cutsceneList[LocationChoice].gameObject.SetActive(false);
-
-                timer = QTETimeValue;
-                LocationChoice = Random.Range(0, 3);
-                //Debug.Log("success");
-                CurrentNum += 1;
-
-                if (CurrentNum >= RepeatNum)
-                {
-                    activateQTE = false;
-                    SceneChecks.QTECompleted = true;
-                    SceneChecks.FromChimney = true;
-                    sceneReference.LoadScene(SceneNext);
-                }
-            }
-        }
 
     }
 
@@ -146,7 +120,8 @@ public class QTETestScript : MonoBehaviour
                 LocationChoice = Random.Range(0, 3);
                 //Debug.Log("Fail");
                 SceneChecks.QTEFailed = false;
-                sceneReference.LoadScene("UpstairsTest1");
+                //sceneReference.LoadScene("UpstairsTest1");
+                cutsceneList[3].gameObject.SetActive(true);
             }
 
             
