@@ -8,7 +8,8 @@ using System.Collections.Generic;
 public class QTETestScript : MonoBehaviour
 {
 
-    public GameObject QTEObj;
+    public RectTransform QTEObj;
+    //public RectTransform QTERect;
     public float RepeatNum;
     float CurrentNum;
     public bool activateQTE;
@@ -50,7 +51,8 @@ public class QTETestScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.A))
             {
 
-                QTEObj.SetActive(false);
+                QTEObj.gameObject.SetActive(false);
+                cutsceneList[LocationChoice].gameObject.SetActive(false);
 
                 timer = QTETimeValue;
                 LocationChoice = Random.Range(0, 3);
@@ -87,7 +89,8 @@ public class QTETestScript : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
 
-                QTEObj.SetActive(false);
+                QTEObj.gameObject.SetActive(false);
+                cutsceneList[LocationChoice].gameObject.SetActive(false);
 
                 timer = QTETimeValue;
                 LocationChoice = Random.Range(0, 3);
@@ -114,10 +117,10 @@ public class QTETestScript : MonoBehaviour
 
         if (activateQTE)
         {
-            if (!QTEObj.activeInHierarchy)
+            if (!QTEObj.gameObject.activeInHierarchy)
             {
-                QTEObj.SetActive(true);
-                QTEObj.transform.position = locations[LocationChoice];
+                QTEObj.gameObject.SetActive(true);
+                QTEObj.anchoredPosition = locations[LocationChoice];
                 if (LocationChoice == 0)
                 {
                     cutsceneList[Random.Range(0, 2)].gameObject.SetActive(true);
@@ -137,7 +140,7 @@ public class QTETestScript : MonoBehaviour
 
             if (timer <= 0)
             {
-                QTEObj.SetActive(false);
+                QTEObj.gameObject.SetActive(false);
                 activateQTE = false;
                 timer = QTETimeValue;
                 LocationChoice = Random.Range(0, 3);

@@ -19,6 +19,7 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     public bool resetable;
 
     bool NoLoop;
+    public bool BackToBack = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -77,8 +78,24 @@ public class CutsceneOverlapScript1 : MonoBehaviour
             NoLoop = false;
         }
 
+        if (!BackToBack)
+        {
+            screen.SetActive(false);
+        }
+        else
+        {
+            //reset video
+            if (NoLoop)
+            {
+                videoPlayer.frame = 0;
+                NoLoop = false;
+            }
+            
+            
 
-        screen.SetActive(false);
+        }
+
+        
     }
 
 
