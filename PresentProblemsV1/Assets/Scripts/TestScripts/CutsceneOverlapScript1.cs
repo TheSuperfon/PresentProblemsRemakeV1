@@ -18,6 +18,8 @@ public class CutsceneOverlapScript1 : MonoBehaviour
 
     public bool resetable;
 
+    public bool skipable = false;
+
     bool NoLoop;
     public bool BackToBack = false;
 
@@ -62,6 +64,15 @@ public class CutsceneOverlapScript1 : MonoBehaviour
         }
         videoPlayer.loopPointReached += EndReached;
 
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (videoPlayer.isPlaying && skipable)
+            {
+                videoPlayer.Stop();
+                EndReached(videoPlayer);
+            }
+            
+        }
     }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp)
@@ -87,7 +98,8 @@ public class CutsceneOverlapScript1 : MonoBehaviour
             //reset video
             if (NoLoop)
             {
-                videoPlayer.frame = 0;
+                //videoPlayer.frame = 0;
+                videoPlayer.Stop();
                 NoLoop = false;
             }
             

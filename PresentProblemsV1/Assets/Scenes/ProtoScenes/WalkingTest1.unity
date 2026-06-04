@@ -4933,6 +4933,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6649035041831201415, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
+      propertyPath: skipable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6649035041831201415, guid: 5bf9b18c047cc1241bfd1285a5ec2317, type: 3}
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 108978959}
