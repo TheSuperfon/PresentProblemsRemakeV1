@@ -15,6 +15,8 @@ public class SceneChecks : MonoBehaviour
     public static float PresentCheck = 0f;
     public static float StockingCheck = 0f;
 
+    public static bool TakingStares = false;
+
     public static bool SeenCutscene = false;
 
 }

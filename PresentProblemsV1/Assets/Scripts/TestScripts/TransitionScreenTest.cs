@@ -16,6 +16,8 @@ public class TransitionScreenTest : MonoBehaviour
     public bool higherGround;
     bool lookat;
 
+    public bool IsStairs = false;
+
     //public NavMeshAgent NavMeshAgent;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -47,7 +49,12 @@ public class TransitionScreenTest : MonoBehaviour
     {
         if (SceneBool == true)
         {
+            if (IsStairs)
+            {
+                SceneChecks.TakingStares = true;
+            }
             SceneTransition(SceneToLoad);
+            
         }
         else
         {
