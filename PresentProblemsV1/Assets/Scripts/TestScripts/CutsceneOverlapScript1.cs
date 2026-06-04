@@ -66,7 +66,7 @@ public class CutsceneOverlapScript1 : MonoBehaviour
 
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
-        Debug.Log("fish");
+        //Debug.Log("fish");
         if (StopPlayer)
         {
             playerRef.GetComponent<TestMovement>().enabled = true;

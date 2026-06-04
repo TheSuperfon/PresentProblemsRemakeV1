@@ -104,7 +104,7 @@ public class QTETestScript : MonoBehaviour
             {
                 QTEObj.gameObject.SetActive(true);
                 QTEObj.anchoredPosition = locations[LocationChoice];
-                if (LocationChoice == 0 || LocationChoice == 3)
+                if (LocationChoice == 0 || LocationChoice == 2)
                 {
                     cutsceneList[Random.Range(0, 2)].gameObject.SetActive(true);
 
