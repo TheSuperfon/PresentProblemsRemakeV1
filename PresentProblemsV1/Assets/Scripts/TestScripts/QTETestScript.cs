@@ -3,6 +3,7 @@ using NUnit.Framework;
 using UnityEditor.Build.Content;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Video;
 //using UnityEngine.Windows;
 
 public class QTETestScript : MonoBehaviour
@@ -36,6 +37,14 @@ public class QTETestScript : MonoBehaviour
         LocationChoice = Random.Range(0, 3);
         activateQTE = true;
         CurrentNum = 0;
+        for (int i = 0; i < cutsceneList.Count; i++)
+        {
+            cutsceneList[i].SetActive(true);
+            cutsceneList[i].GetComponentInChildren<VideoPlayer>().Prepare();
+            cutsceneList[i].SetActive(false);
+
+        }
+
     }
 
     // Update is called once per frame
@@ -50,7 +59,7 @@ public class QTETestScript : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.A))
             {
-
+                Debug.Log(LocationChoice);
                 QTEObj.gameObject.SetActive(false);
                 cutsceneList[LocationChoice].gameObject.SetActive(false);
 
@@ -64,7 +73,7 @@ public class QTETestScript : MonoBehaviour
                     activateQTE = false;
                     SceneChecks.QTECompleted = true;
                     SceneChecks.FromChimney = true;
-                    cutsceneList[4].gameObject.SetActive(true);
+                    cutsceneList[3].gameObject.SetActive(true);
                     //sceneReference.LoadScene(SceneNext);
 
                 }
@@ -95,7 +104,7 @@ public class QTETestScript : MonoBehaviour
             {
                 QTEObj.gameObject.SetActive(true);
                 QTEObj.anchoredPosition = locations[LocationChoice];
-                if (LocationChoice == 0)
+                if (LocationChoice == 0 || LocationChoice == 3)
                 {
                     cutsceneList[Random.Range(0, 2)].gameObject.SetActive(true);
 
@@ -121,7 +130,7 @@ public class QTETestScript : MonoBehaviour
                 //Debug.Log("Fail");
                 SceneChecks.QTEFailed = false;
                 //sceneReference.LoadScene("UpstairsTest1");
-                cutsceneList[3].gameObject.SetActive(true);
+                cutsceneList[2].gameObject.SetActive(true);
             }
 
             
