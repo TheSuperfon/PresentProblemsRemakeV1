@@ -54,7 +54,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaVal: 0
+    - _AlphaVal: 2.14
     - _EnableExternalAlpha: 0
     - _QueueControl: 0
     - _QueueOffset: 0
