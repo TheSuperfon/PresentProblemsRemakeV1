@@ -1126,7 +1126,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: cf82b4b4c6b0b8d4d9abf65d19b0cf6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1150,7 +1150,7 @@ SpriteRenderer:
   m_SortingOrder: 21
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.044287283, g: 0.6320754, b: 0, a: 0}
+  m_Color: {r: 0.2889028, g: 0.41509432, b: 0.123353496, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2173,6 +2173,7 @@ MonoBehaviour:
   SceneToLoad: 
   SceneBool: 0
   higherGround: 0
+  IsStairs: 0
 --- !u!60 &333200900
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2630,6 +2631,7 @@ MonoBehaviour:
   SceneToLoad: 
   SceneBool: 0
   higherGround: 0
+  IsStairs: 0
 --- !u!60 &383320618
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3697,6 +3699,7 @@ MonoBehaviour:
   SceneToLoad: 
   SceneBool: 0
   higherGround: 0
+  IsStairs: 0
 --- !u!60 &619872863
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6651,6 +6654,7 @@ MonoBehaviour:
   SceneToLoad: UpstairsTest1
   SceneBool: 1
   higherGround: 0
+  IsStairs: 0
 --- !u!60 &1145948934
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7310,6 +7314,7 @@ MonoBehaviour:
   SceneToLoad: 
   SceneBool: 0
   higherGround: 0
+  IsStairs: 0
 --- !u!60 &1267506968
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11000,6 +11005,7 @@ MonoBehaviour:
   SceneToLoad: 
   SceneBool: 0
   higherGround: 0
+  IsStairs: 0
 --- !u!60 &2059217618
 PolygonCollider2D:
   m_ObjectHideFlags: 0
