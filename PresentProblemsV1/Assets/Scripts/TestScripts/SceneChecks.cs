@@ -19,4 +19,22 @@ public class SceneChecks : MonoBehaviour
 
     public static bool SeenCutscene = false;
 
+
+    public static void StartReset()
+    {
+        QTECompleted = false;
+        QTEFailed = false;
+        FromChimney = false;
+        DinoChoice = false;
+        toyActive = false;
+        FireplaceSantaCheck = false;
+        CouchWarning = false;
+        inventoryEmpty = true;
+        PresentCheck = 0f;
+        StockingCheck = 0f;
+        TakingStares = false;
+        SeenCutscene = false;
+
+    }
+
 }

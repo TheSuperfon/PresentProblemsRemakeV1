@@ -106,6 +106,7 @@ public class QTETestScript : MonoBehaviour
                 Debug.Log(LocationChoice);
                 QTEObj.gameObject.SetActive(false);
                 cutsceneList[LocationChoice].gameObject.SetActive(false);
+                cutsceneList[LocationChoice].GetComponentInChildren<VideoPlayer>().time = 0;
 
                 timer = QTETimeValue;
                 LocationChoice = Random.Range(0, 3);
