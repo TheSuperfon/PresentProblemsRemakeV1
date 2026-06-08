@@ -21,6 +21,8 @@ public class QTETestScript : MonoBehaviour
     public string SceneNext;
     public string ScenePrevious;
 
+    int prepareloop = 0;
+    bool prepared;
 
     [SerializeField] public List<Vector3> locations = new();
     [SerializeField] public List<GameObject> cutsceneList = new();
@@ -31,27 +33,69 @@ public class QTETestScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        prepared = false;
+        prepareloop = 0;
         SceneChecks.QTECompleted = false;
         SceneChecks.QTEFailed = false;
         timer = QTETimeValue;
         LocationChoice = Random.Range(0, 3);
         activateQTE = true;
         CurrentNum = 0;
+
+        StartCoroutine(cutscenePrepare());
+    }
+
+    public IEnumerator cutscenePrepare()
+    {
         for (int i = 0; i < cutsceneList.Count; i++)
         {
+            
             cutsceneList[i].SetActive(true);
             cutsceneList[i].GetComponentInChildren<VideoPlayer>().Prepare();
+            
+            
+            while (!cutsceneList[i].GetComponentInChildren<VideoPlayer>().isPrepared)
+            {
+                cutsceneList[i].GetComponentInChildren<VideoPlayer>().Prepare();
+                cutsceneList[i].GetComponentInChildren<VideoPlayer>().prepareCompleted += OnPrepareCompleted;
+                yield return null; 
+                
+            }
             cutsceneList[i].SetActive(false);
-
+            //cutsceneList[i].GetComponentInChildren<VideoPlayer>().prepareCompleted += OnPrepareCompleted;
+            //Debug.Log("gogo");
+            /*prepareloop += 1;
+            if (prepareloop >= cutsceneList.Count)
+            {
+                prepared = true;
+            }*/
         }
 
+
     }
+
+
+    void OnPrepareCompleted(VideoPlayer vp)
+    {
+        //prepareloop += 1;
+        Debug.Log("prepare");
+        // Preparation is complete so allow interactions with the play button. 
+        prepareloop += 1;
+        if (prepareloop >= cutsceneList.Count)
+        {
+            prepared = true;
+        }
+    }
+
+
+
+
 
     // Update is called once per frame
     void Update()
     {
 
-        if (activateQTE)
+        if (activateQTE && prepared)
         {
 
 
@@ -98,7 +142,7 @@ public class QTETestScript : MonoBehaviour
 
         
 
-        if (activateQTE)
+        if (activateQTE && prepared)
         {
             if (!QTEObj.gameObject.activeInHierarchy)
             {
@@ -106,14 +150,15 @@ public class QTETestScript : MonoBehaviour
                 QTEObj.anchoredPosition = locations[LocationChoice];
                 if (LocationChoice == 0 || LocationChoice == 2)
                 {
-                    cutsceneList[Random.Range(0, 2)].gameObject.SetActive(true);
-
+                    int choice = Random.Range(0, 2);
+                    cutsceneList[choice].gameObject.SetActive(true);
+                    cutsceneList[choice].gameObject.GetComponentInChildren<VideoPlayer>().Play();
 
                 }
                 else
                 {
                     cutsceneList[LocationChoice].gameObject.SetActive(true);
-
+                    cutsceneList[LocationChoice].gameObject.GetComponentInChildren<VideoPlayer>().Play();
 
                 }
 
