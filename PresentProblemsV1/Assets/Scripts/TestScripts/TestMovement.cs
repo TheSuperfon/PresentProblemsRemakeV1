@@ -14,9 +14,14 @@ public class TestMovement : MonoBehaviour
     public Vector2 GoToLocation;
     public Camera Cam;
 
+    private Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
+        animator = GetComponentInChildren<Animator>();
+
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -66,7 +71,23 @@ public class TestMovement : MonoBehaviour
         }
         agent.SetDestination(new Vector3(GoToLocation.x, GoToLocation.y, transform.position.z));
 
+        UpdateAnimation();
+    }
 
+
+    void UpdateAnimation()
+    {
+        float distance = Vector2.Distance(transform.position, GoToLocation);
+        animator.SetFloat("distance", distance);
+        if (distance > 0.01)
+        {
+            Vector3 direction = transform.position - new Vector3(GoToLocation.x, GoToLocation.y, transform.position.z);
+            float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+            animator.SetFloat("angle", angle);
+        }
+
+
+        
     }
 
 
