@@ -84,12 +84,55 @@ public class TestMovement : MonoBehaviour
             Vector3 direction = transform.position - new Vector3(GoToLocation.x, GoToLocation.y, transform.position.z);
             float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
             animator.SetFloat("angle", angle);
+            if (angle >= 180)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (angle >= 135 && angle < 180)
+            {
+                transform.localScale = new Vector3(-1, 1, 1); // down right
+            }
+            else if (angle >= 90 &&  angle < 135)
+            {
+                transform.localScale = new Vector3(1, 1, 1); // walk down
+            }
+            else if (angle >= 45 && angle < 90)
+            {
+                transform.localScale = new Vector3(1, 1, 1); // down left
+            }
+            else if (angle >= 0 && angle < 45)
+            {
+                transform.localScale = new Vector3(-1, 1, 1); //walk left
+            }
+            else if (angle >= -45 && angle < 0)
+            {
+                transform.localScale = new Vector3(1, 1, 1); // back left
+            }
+            else if (angle >= -90 && angle < -45)
+            {
+                transform.localScale = new Vector3(1, 1, 1); // walk up
+            }
+            else if (angle >= -135 && angle < -90)
+            {
+                transform.localScale = new Vector3(-1, 1, 1); // back right
+            }
+            else if (angle >= -180 && angle < -135)
+            {
+                transform.localScale = new Vector3(1, 1, 1); // walk right
+            }
+            else
+            {
+
+            }
+
+
         }
 
 
         
     }
 
+    
 
     public void InteractButton()
     {
