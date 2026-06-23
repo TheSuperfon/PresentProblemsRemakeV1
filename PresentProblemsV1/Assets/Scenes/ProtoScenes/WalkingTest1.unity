@@ -3045,6 +3045,7 @@ GameObject:
   - component: {fileID: 507557567}
   - component: {fileID: 507557569}
   - component: {fileID: 507557568}
+  - component: {fileID: 507557570}
   m_Layer: 0
   m_Name: Santa
   m_TagString: Untagged
@@ -3148,6 +3149,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &507557570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507557566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f8d7fc43723be43a068275a1184884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SantaCatchScript
+  animator: {fileID: 507557568}
 --- !u!1 &509607444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3335,6 +3349,7 @@ MonoBehaviour:
   Cam: {fileID: 1176041246}
   CatchBack: {x: 25, y: 0.45, z: 0}
   CutsceneObj: {fileID: 2068502322}
+  SantaAnim: {fileID: 507557568}
 --- !u!1 &521393050 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9112683363594940728, guid: abd3848311e28324a985507b619bb124, type: 3}
@@ -7144,7 +7159,7 @@ Transform:
   m_GameObject: {fileID: 1176041244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

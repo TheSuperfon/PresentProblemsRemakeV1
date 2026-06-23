@@ -24,9 +24,13 @@ AnimationClip:
       value: {fileID: 4125660596751274526, guid: 4bb2049a4a4790148b488dfee96359db, type: 3}
     - time: 0.75
       value: {fileID: -2899594195075506148, guid: 15ff8ee3881101d4abe935bb559aafb2, type: 3}
-    - time: 1.6833333
+    - time: 1.6166667
+      value: {fileID: -5494950274887951278, guid: bc94290f9d3603442a94fc76d3515ba0, type: 3}
+    - time: 2.3333333
       value: {fileID: -7748943816401077258, guid: 516eaa6aac2ebbc498f38c35331ccc09, type: 3}
-    - time: 2.9
+    - time: 3.2833333
+      value: {fileID: -2899594195075506148, guid: 15ff8ee3881101d4abe935bb559aafb2, type: 3}
+    - time: 3.5833333
       value: {fileID: 4125660596751274526, guid: 4bb2049a4a4790148b488dfee96359db, type: 3}
     attribute: m_Sprite
     path: 
@@ -52,20 +56,22 @@ AnimationClip:
     pptrCurveMapping:
     - {fileID: 4125660596751274526, guid: 4bb2049a4a4790148b488dfee96359db, type: 3}
     - {fileID: -2899594195075506148, guid: 15ff8ee3881101d4abe935bb559aafb2, type: 3}
+    - {fileID: -5494950274887951278, guid: bc94290f9d3603442a94fc76d3515ba0, type: 3}
     - {fileID: -7748943816401077258, guid: 516eaa6aac2ebbc498f38c35331ccc09, type: 3}
+    - {fileID: -2899594195075506148, guid: 15ff8ee3881101d4abe935bb559aafb2, type: 3}
     - {fileID: 4125660596751274526, guid: 4bb2049a4a4790148b488dfee96359db, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.9166667
+    m_StopTime: 3.6
     m_OrientationOffsetY: 0
     m_Level: 0
-    m_CycleOffset: 0
+    m_CycleOffset: 0.15
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
+    m_LoopTime: 1
+    m_LoopBlend: 1
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
     m_LoopBlendPositionXZ: 0
@@ -78,4 +84,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 2.9166667
+    functionName: EndCatchAnim
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

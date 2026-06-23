@@ -12,6 +12,8 @@ public class SantaCatch : MonoBehaviour
 
     public GameObject CutsceneObj;
 
+    public Animator SantaAnim;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,11 +33,13 @@ public class SantaCatch : MonoBehaviour
     {
         if (!done && (SceneChecks.CouchWarning == false))
         {
+            SantaAnim.SetBool("CatchBool", true);
             Debug.Log(SceneChecks.CouchWarning);
             if (CatchNumb < CatchCap)
             {
                 collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
                 CatchNumb += 1;
+                
             }
             else
             {
@@ -73,6 +77,7 @@ public class SantaCatch : MonoBehaviour
         if (SceneChecks.CouchWarning == false)
         {
             collision.gameObject.GetComponent<TestMovement>().GoToLocation = CatchBack;
+            
         }
 
         
