@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ToyPickup : MonoBehaviour
@@ -6,10 +7,12 @@ public class ToyPickup : MonoBehaviour
     public PauseAttempt1 InventoryReference;
     public GameObject dinoOBJ;
     public GameObject blocksOBJ;
+    bool GoingToToy;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        GoingToToy = false;
         if (SceneChecks.DinoChoice)
         {
             blocksOBJ.SetActive(false);
@@ -33,7 +36,22 @@ public class ToyPickup : MonoBehaviour
         Debug.Log("eee");
         if (Input.GetMouseButtonDown(0))
         {
+
+            GoingToToy = true;
+
             
+
+
+
+        }
+
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (GoingToToy)
+        {
             if (SceneChecks.DinoChoice)
             {
                 InventoryReference.activateDino();
@@ -44,10 +62,8 @@ public class ToyPickup : MonoBehaviour
                 InventoryReference.activateBlocks();
                 blocksOBJ.SetActive(false);
             }
-
-
-
         }
+
 
 
     }

@@ -25,12 +25,14 @@ public class DetermineLocation : MonoBehaviour
         {
             player.GetComponent<NavMeshAgent>().ResetPath();
             player.GetComponent<NavMeshAgent>().Warp(secondLocation);
+            player.GetComponent<TestMovement>().GoToLocation = secondLocation;
             SceneChecks.TakingStares = false;
         }
         else
         {
             player.GetComponent<NavMeshAgent>().ResetPath();
             player.GetComponent<NavMeshAgent>().Warp(firstLocation);
+            player.GetComponent<TestMovement>().GoToLocation = firstLocation;
         }
 
 
