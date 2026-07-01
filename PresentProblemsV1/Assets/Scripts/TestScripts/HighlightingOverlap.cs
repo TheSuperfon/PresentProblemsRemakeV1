@@ -21,18 +21,18 @@ public class HighlightingOverlap : MonoBehaviour
         if (Highlighted)
         {
 
-            Debug.Log("RRR");
+            //Debug.Log("RRR");
         }
     }
 
     private void OnMouseOver()
     {
-        Debug.Log("eeeeeeeeeeee");
+        //Debug.Log("eeeeeeeeeeee");
     }
 
     private void OnMouseEnter()
     {
-        Debug.Log("wwww");
+        //Debug.Log("wwww");
         Highlighted = true;
 
         material.SetFloat("_OutlineThickness", ThickOutline);
