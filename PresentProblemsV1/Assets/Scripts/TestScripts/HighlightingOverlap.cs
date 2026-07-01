@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class HighlightingOverlap : MonoBehaviour
@@ -17,7 +18,16 @@ public class HighlightingOverlap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Highlighted)
+        {
+
+            Debug.Log("RRR");
+        }
+    }
+
+    private void OnMouseOver()
+    {
+        Debug.Log("eeeeeeeeeeee");
     }
 
     private void OnMouseEnter()
@@ -25,14 +35,14 @@ public class HighlightingOverlap : MonoBehaviour
         Debug.Log("wwww");
         Highlighted = true;
 
-        material.SetFloat("ThicknessOutline", ThickOutline);
+        material.SetFloat("_OutlineThickness", ThickOutline);
 
     }
 
     private void OnMouseExit()
     {
         Highlighted = false;
-        material.SetFloat("ThicknessOutline", 0f);
+        material.SetFloat("_OutlineThickness", 0f);
     }
 
 }
