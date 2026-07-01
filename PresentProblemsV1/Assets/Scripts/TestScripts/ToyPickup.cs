@@ -33,7 +33,7 @@ public class ToyPickup : MonoBehaviour
 
     private void OnMouseOver()
     {
-        Debug.Log("eee");
+        //Debug.Log("eee");
         if (Input.GetMouseButtonDown(0))
         {
 
