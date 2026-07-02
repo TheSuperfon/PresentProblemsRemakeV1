@@ -10,14 +10,14 @@ public class OverlapScreenScript : MonoBehaviour
     public bool LookAt;
 
     public GameObject playerRef;
-    public SpriteRenderer Highlight;
+    //public SpriteRenderer Highlight;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         LookAt = false;
-        Highlight.color = new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0);
+        //Highlight.color = new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0);
     }
 
     private void OnMouseOver()
@@ -29,7 +29,7 @@ public class OverlapScreenScript : MonoBehaviour
 
         }
 
-        StartCoroutine(DoAThingOverTime(new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0), new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 100), 3));
+        //StartCoroutine(DoAThingOverTime(new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0), new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 100), 3));
     }
 
     private void OnMouseEnter()
@@ -39,7 +39,7 @@ public class OverlapScreenScript : MonoBehaviour
 
     private void OnMouseExit()
     {
-        Highlight.color = new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0);
+        //Highlight.color = new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0);
     }
 
     
@@ -50,7 +50,7 @@ public class OverlapScreenScript : MonoBehaviour
         {
             float normalizedTime = t / duration;
             //right here, you can now use normalizedTime as the third parameter in any Lerp from start to end
-            Highlight.color = Color.Lerp(start, end, normalizedTime);
+            //Highlight.color = Color.Lerp(start, end, normalizedTime);
 
             yield return null;
         }

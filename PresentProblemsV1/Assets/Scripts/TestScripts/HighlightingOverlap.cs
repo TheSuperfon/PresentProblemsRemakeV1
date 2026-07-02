@@ -34,6 +34,7 @@ public class HighlightingOverlap : MonoBehaviour
     {
         //Debug.Log("wwww");
         Highlighted = true;
+        
 
         material.SetFloat("_OutlineThickness", ThickOutline);
 
