@@ -14,6 +14,10 @@ public class SantaCatch : MonoBehaviour
 
     public Animator SantaAnim;
     public OverlapScreenScript OverlapScreenScript;
+    //public bool playCutscene;
+    public GameObject DinoCutscene;
+    public GameObject BlockCutscene;
+    //public bool IsDinoToy;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,7 +26,30 @@ public class SantaCatch : MonoBehaviour
         done = false;
         CutsceneObj.SetActive(false);
         OverlapScreenScript.activeScript = false;
+        DinoCutscene.SetActive(false);
+        BlockCutscene.SetActive(false);
+        //playCutscene = false;
+        
     }
+
+    /*public void PlayDino()
+    {
+        if (playCutscene)
+        {
+            DinoCutscene.SetActive(true);
+            Debug.Log("DinoTime");
+        }
+        Debug.Log("too Dino");
+    }*/
+
+    /*public void PlayBlock()
+    {
+        if (playCutscene)
+        {
+            BlockCutscene.SetActive(true);
+        }
+    }*/
+
 
     // Update is called once per frame
     void Update()
@@ -65,13 +92,26 @@ public class SantaCatch : MonoBehaviour
         if (Cam.transform.position == new Vector3(30, 0, -10))
         {
             SceneChecks.CouchWarning = true;
-            Debug.Log("toy");
+            //Debug.Log("toy");
+            //playCutscene = true;
             OverlapScreenScript.activeScript = true;
+
+            if (SceneChecks.DinoChoice)
+            {
+                DinoCutscene.SetActive(true);
+            }
+            else
+            {
+                BlockCutscene.SetActive(true);
+            }
+
+
         }
 
         Debug.Log(SceneChecks.CouchWarning);
 
     }
+
 
 
 

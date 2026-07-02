@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class HighlightingOverlap : MonoBehaviour
 {
-    bool Highlighted;
+    public bool Highlighted;
     Material material;
 
     public float ThickOutline;
@@ -18,11 +18,11 @@ public class HighlightingOverlap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Highlighted)
+        /*if (Highlighted)
         {
 
             //Debug.Log("RRR");
-        }
+        }*/
     }
 
     private void OnMouseOver()

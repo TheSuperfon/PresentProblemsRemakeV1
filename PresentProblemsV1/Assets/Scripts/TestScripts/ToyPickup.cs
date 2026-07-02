@@ -28,7 +28,21 @@ public class ToyPickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if ((dinoOBJ.GetComponent<HighlightingOverlap>().Highlighted) || (blocksOBJ.GetComponent<HighlightingOverlap>().Highlighted))
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+
+                GoingToToy = true;
+
+
+
+
+
+            }
+        }
+
+
     }
 
     private void OnMouseOver()
