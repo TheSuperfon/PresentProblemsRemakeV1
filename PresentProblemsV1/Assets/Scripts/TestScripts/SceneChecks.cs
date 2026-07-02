@@ -6,7 +6,7 @@ public class SceneChecks : MonoBehaviour
     public static bool QTEFailed = false;
     public static bool FromChimney = false;
 
-    public static bool DinoChoice = false;
+    public static bool DinoChoice = true;
     public static bool toyActive = false;
 
     public static bool FireplaceSantaCheck = false;

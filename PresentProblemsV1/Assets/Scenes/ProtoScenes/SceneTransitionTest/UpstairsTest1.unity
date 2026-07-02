@@ -569,7 +569,6 @@ GameObject:
   - component: {fileID: 413514301}
   - component: {fileID: 413514302}
   - component: {fileID: 413514303}
-  - component: {fileID: 413514304}
   m_Layer: 6
   m_Name: Dino
   m_TagString: Untagged
@@ -711,33 +710,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.5466666, y: 1.7733333}
   m_EdgeRadius: 0
---- !u!50 &413514304
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413514299}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &512580199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1093,6 @@ GameObject:
   - component: {fileID: 769641028}
   - component: {fileID: 769641029}
   - component: {fileID: 769641030}
-  - component: {fileID: 769641032}
   - component: {fileID: 769641031}
   m_Layer: 6
   m_Name: Block
@@ -1264,33 +1235,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.32, y: 1.23}
   m_EdgeRadius: 0
---- !u!50 &769641032
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769641027}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &780347559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,7 +1906,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989376904}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
