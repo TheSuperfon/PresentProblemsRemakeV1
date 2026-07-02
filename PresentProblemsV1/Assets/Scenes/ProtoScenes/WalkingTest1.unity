@@ -3259,6 +3259,7 @@ MonoBehaviour:
   CatchBack: {x: 25, y: 0.45, z: 0}
   CutsceneObj: {fileID: 2068502322}
   SantaAnim: {fileID: 507557568}
+  OverlapScreenScript: {fileID: 1152696537}
 --- !u!1 &521393050 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9112683363594940728, guid: abd3848311e28324a985507b619bb124, type: 3}
@@ -7135,6 +7136,7 @@ MonoBehaviour:
   LastCameraPos: {x: 30, y: 0, z: -10}
   LookAt: 0
   playerRef: {fileID: 108978956}
+  activeScript: 1
 --- !u!114 &1152696538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7475,6 +7477,7 @@ MonoBehaviour:
   LastCameraPos: {x: -30, y: 0, z: -10}
   LookAt: 0
   playerRef: {fileID: 108978956}
+  activeScript: 1
 --- !u!61 &1255434442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9822,6 +9825,7 @@ MonoBehaviour:
   LastCameraPos: {x: 30, y: 0, z: -10}
   LookAt: 0
   playerRef: {fileID: 108978956}
+  activeScript: 1
 --- !u!61 &1765941182
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10646,6 +10650,7 @@ MonoBehaviour:
   LastCameraPos: {x: -30, y: 0, z: -10}
   LookAt: 0
   playerRef: {fileID: 108978956}
+  activeScript: 1
 --- !u!60 &1940721820
 PolygonCollider2D:
   m_ObjectHideFlags: 0

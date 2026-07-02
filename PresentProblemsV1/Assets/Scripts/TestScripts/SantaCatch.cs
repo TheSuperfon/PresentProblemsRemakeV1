@@ -13,6 +13,7 @@ public class SantaCatch : MonoBehaviour
     public GameObject CutsceneObj;
 
     public Animator SantaAnim;
+    public OverlapScreenScript OverlapScreenScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,7 @@ public class SantaCatch : MonoBehaviour
         CatchNumb = 0;
         done = false;
         CutsceneObj.SetActive(false);
+        OverlapScreenScript.activeScript = false;
     }
 
     // Update is called once per frame
@@ -64,6 +66,7 @@ public class SantaCatch : MonoBehaviour
         {
             SceneChecks.CouchWarning = true;
             Debug.Log("toy");
+            OverlapScreenScript.activeScript = true;
         }
 
         Debug.Log(SceneChecks.CouchWarning);

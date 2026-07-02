@@ -11,7 +11,7 @@ public class OverlapScreenScript : MonoBehaviour
 
     public GameObject playerRef;
     //public SpriteRenderer Highlight;
-
+    public bool activeScript = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -71,13 +71,17 @@ public class OverlapScreenScript : MonoBehaviour
         if (LookAt)
         {
             //playerRef = collision.gameObject;
-            playerRef.GetComponent<TestMovement>().enabled = false;
-            //Debug.Log(playerRef);
+            if (activeScript)
+            {
+                playerRef.GetComponent<TestMovement>().enabled = false;
+                //Debug.Log(playerRef);
 
-            LastCameraPos = Cam.transform.position;
+                LastCameraPos = Cam.transform.position;
 
-            Cam.transform.position = CameraNewPos;
-            //LookAt = false;
+                Cam.transform.position = CameraNewPos;
+                //LookAt = false;
+            }
+
         }
 
 
@@ -85,14 +89,18 @@ public class OverlapScreenScript : MonoBehaviour
 
     }
 
-    public void OutOfOverlapScreen()
+    /*public void OutOfOverlapScreen()
     {
-        Debug.Log(playerRef);
-        playerRef.gameObject.GetComponent<TestMovement>().enabled = true;
+        if (activeScript)
+        {
+            playerRef.gameObject.GetComponent<TestMovement>().enabled = true;
 
-        Cam.transform.position = LastCameraPos;
+            Cam.transform.position = LastCameraPos;
 
-    }
+        }
+        //Debug.Log(playerRef);
+
+    }*/
 
 
 }
