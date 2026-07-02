@@ -7136,7 +7136,7 @@ MonoBehaviour:
   LastCameraPos: {x: 30, y: 0, z: -10}
   LookAt: 0
   playerRef: {fileID: 108978956}
-  activeScript: 1
+  activeScript: 0
 --- !u!114 &1152696538
 MonoBehaviour:
   m_ObjectHideFlags: 0

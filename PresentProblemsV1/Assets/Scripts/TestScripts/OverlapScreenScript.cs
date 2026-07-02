@@ -79,6 +79,7 @@ public class OverlapScreenScript : MonoBehaviour
                 LastCameraPos = Cam.transform.position;
 
                 Cam.transform.position = CameraNewPos;
+                //activeScript = false;
                 //LookAt = false;
             }
 
@@ -89,7 +90,7 @@ public class OverlapScreenScript : MonoBehaviour
 
     }
 
-    /*public void OutOfOverlapScreen()
+    public void OutOfOverlapScreen()
     {
         if (activeScript)
         {
@@ -100,7 +101,7 @@ public class OverlapScreenScript : MonoBehaviour
         }
         //Debug.Log(playerRef);
 
-    }*/
+    }
 
 
 }
