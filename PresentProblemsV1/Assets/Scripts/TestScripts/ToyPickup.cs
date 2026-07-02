@@ -8,6 +8,7 @@ public class ToyPickup : MonoBehaviour
     public GameObject dinoOBJ;
     public GameObject blocksOBJ;
     bool GoingToToy;
+    public AudioSource pickupSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -76,6 +77,7 @@ public class ToyPickup : MonoBehaviour
                 InventoryReference.activateBlocks();
                 blocksOBJ.SetActive(false);
             }
+            pickupSound.Play();
         }
 
 

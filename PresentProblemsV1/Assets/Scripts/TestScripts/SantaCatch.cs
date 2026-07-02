@@ -17,6 +17,7 @@ public class SantaCatch : MonoBehaviour
     //public bool playCutscene;
     public GameObject DinoCutscene;
     public GameObject BlockCutscene;
+    AudioSource santaCatchSound;
     //public bool IsDinoToy;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,8 +29,9 @@ public class SantaCatch : MonoBehaviour
         OverlapScreenScript.activeScript = false;
         DinoCutscene.SetActive(false);
         BlockCutscene.SetActive(false);
+        santaCatchSound = GetComponent<AudioSource>();
         //playCutscene = false;
-        
+
     }
 
     /*public void PlayDino()
@@ -63,6 +65,7 @@ public class SantaCatch : MonoBehaviour
         if (!done && (SceneChecks.CouchWarning == false))
         {
             SantaAnim.SetBool("CatchBool", true);
+            santaCatchSound.Play();
             Debug.Log(SceneChecks.CouchWarning);
             if (CatchNumb < CatchCap)
             {
