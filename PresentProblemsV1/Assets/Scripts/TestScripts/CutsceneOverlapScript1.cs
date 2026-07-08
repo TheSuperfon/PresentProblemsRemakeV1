@@ -16,6 +16,8 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     public string sceneName;
     public bool OneAndDone;
 
+    public string staticValueName = "Couch";
+
     public bool resetable;
 
     public bool skipable = false;
@@ -33,10 +35,22 @@ public class CutsceneOverlapScript1 : MonoBehaviour
         videoPlayer = GetComponent<VideoPlayer>();
         videoActive = false;
 
-        if (OneAndDone && SceneChecks.SeenCutscene == true)
+        if (OneAndDone )
         {
-            screen.SetActive(false);
-            videoPlayer.Stop();
+
+            if (staticValueName == "Couch" && SceneChecks.SeenCutscene == true)
+            {
+                screen.SetActive(false);
+                videoPlayer.Stop();
+            }
+            else if (staticValueName == "Intro" && SceneChecks.seenIntro == true)
+            {
+                screen.SetActive(false);
+                videoPlayer.Stop();
+            }
+
+
+            
         }
         else
         {
@@ -47,8 +61,10 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneChecks.SeenCutscene == false && !videoPlayer.isPlaying)
+        if (((staticValueName == "Couch" && SceneChecks.SeenCutscene == false) || (staticValueName == "Intro" && SceneChecks.seenIntro == false)) && !videoPlayer.isPlaying)
         {
+
+
             videoPlayer.Play();
             videoActive = true;
             if (StopPlayer)
@@ -61,7 +77,15 @@ public class CutsceneOverlapScript1 : MonoBehaviour
         {
             //Debug.Log("finished");
             videoActive = false;
-            SceneChecks.SeenCutscene = true;
+            
+            if (staticValueName == "Couch")
+            {
+                SceneChecks.SeenCutscene = true;
+            }
+            else if (staticValueName == "Intro")
+            {
+                SceneChecks.seenIntro = true;
+            }
 
         }
         videoPlayer.loopPointReached += EndReached;

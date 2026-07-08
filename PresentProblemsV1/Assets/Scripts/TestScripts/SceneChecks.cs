@@ -18,10 +18,13 @@ public class SceneChecks : MonoBehaviour
     public static bool TakingStares = false;
 
     public static bool SeenCutscene = false;
+    public static bool seenIntro = false;
 
 
     public static void StartReset()
     {
+        seenIntro = false;
+
         QTECompleted = false;
         QTEFailed = false;
         FromChimney = false;
