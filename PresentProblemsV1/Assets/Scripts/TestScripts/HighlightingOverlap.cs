@@ -4,7 +4,11 @@ using UnityEngine;
 public class HighlightingOverlap : MonoBehaviour
 {
     public bool Highlighted;
+    public bool transparent = false;
+    public GameObject arrow;
     Material material;
+
+    public GameObject interfere;
 
     public float ThickOutline;
 
@@ -12,7 +16,12 @@ public class HighlightingOverlap : MonoBehaviour
     void Start()
     {
         Highlighted = false;
-        material = GetComponent<SpriteRenderer>().material;
+
+        if (!transparent)
+        {
+            material = GetComponent<SpriteRenderer>().material;
+        }
+        
     }
 
     // Update is called once per frame
@@ -22,6 +31,11 @@ public class HighlightingOverlap : MonoBehaviour
         {
 
             //Debug.Log("RRR");
+        }
+
+        if (!transparent)
+        {
+            interfere.
         }*/
     }
 
@@ -35,15 +49,33 @@ public class HighlightingOverlap : MonoBehaviour
         //Debug.Log("wwww");
         Highlighted = true;
         
-
-        material.SetFloat("_OutlineThickness", ThickOutline);
+        if (!transparent)
+        {
+            material.SetFloat("_OutlineThickness", ThickOutline);
+        }
+        else
+        {
+            arrow.SetActive(true);
+        }
+        
 
     }
 
     private void OnMouseExit()
     {
+        
         Highlighted = false;
-        material.SetFloat("_OutlineThickness", 0f);
+
+
+        if (!transparent)
+        {
+            material.SetFloat("_OutlineThickness", 0f);
+        }
+        else
+        {
+            arrow.SetActive(false);
+        }
+        
     }
 
 }
