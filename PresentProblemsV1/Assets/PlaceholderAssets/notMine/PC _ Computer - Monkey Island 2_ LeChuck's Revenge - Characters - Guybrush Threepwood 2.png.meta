@@ -1,0 +1,2176 @@
+fileFormatVersion: 2
+guid: f6c8dcdd65525874e91784d9879e86b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7782913945791207459
+    second: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+      Threepwood 2_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32891508ff6720c60800000000000000
+      internalID: 7782913945791207459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2577fbd8fb9f74782cb162e2a911e7
+      internalID: 411291463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71379dc609f53b49b53845ae45f5b88
+      internalID: 1338475564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9409592b06e6dd4a92b67b140e96031
+      internalID: -1760136535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30273615d96ebea4e88fd180bc4dcf2b
+      internalID: 361091463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939fc08fcbb280f4189498096626d07c
+      internalID: -350084270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34840d3667bad744da3871fbf184f732
+      internalID: 2120233135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa3e79fc6ada514094c9c774eb97ed9
+      internalID: 1013135672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0012401965b1cb84fa8c290d3c0dab2e
+      internalID: 603772030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144c882e3c81eb84887c29abbd6b8e57
+      internalID: 740392189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb9dc0d29061ac418cef624d34b081f
+      internalID: -583079885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_11
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f7d1c0242ccc143b899641323ea7f3
+      internalID: 246643580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_12
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf19b98785d3e2148ac6a8bf319d7acd
+      internalID: 497482340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_13
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8934cbfaea136ca45a9aa9308e91d910
+      internalID: -1024804841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_14
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0af04879f4e8b14794e438d412e381d
+      internalID: 496070197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_15
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bd20a712d045148a2cf6eaf18ac2ec
+      internalID: -1563644857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_16
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 212
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282915640a07a6468e913139ebe629f
+      internalID: 1378566391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57167821a742b64f9552dae774a3259
+      internalID: -935726177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0f71f0fdfaa3244b8968c73a77d2e8
+      internalID: -283838339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6378b6e94edae63469b8a747e6f5d4da
+      internalID: 1132901466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64a9a63de48d340b3e70273d1871d9
+      internalID: -1008468604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb822b32870512a4e97bda7d923fc4f3
+      internalID: 2069739572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_22
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49af3b2a06c696a49af20fa7a271058c
+      internalID: -1347537229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab12545c7ccd6a4b80d762054c24e78
+      internalID: -534279153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_24
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b100a1e2213688e459f3df2e0631980e
+      internalID: -1144286420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e23e734743b5c428177f6663192cdd
+      internalID: -1918003168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_26
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7428b4ad1a8984195da7bea39c2b53
+      internalID: -1557677193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_27
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940815b01cd0d9b4aac0b0adc923b203
+      internalID: -1270991894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_28
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674c8b098294a7e4c99546f5b1a89e1d
+      internalID: -1912733887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_29
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805825c4ae4e12544baa1886114205ec
+      internalID: -1922691257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_30
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae782c63edf1a42af39edb0faa5612
+      internalID: -2078787985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_31
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4e90406013aad43a9bddcdc7729206
+      internalID: 1549509403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_32
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f84972dda821d419ca07741b4e7305
+      internalID: 1582230204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_33
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 159
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5173f6e9cf05ca74cb5646587752e114
+      internalID: -571300666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb12c11bda1b0c4b843319da8348fc6
+      internalID: 1413736302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a922561a4685845948156c21ba90f1
+      internalID: -2096088543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_36
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a74ac1b0914c841b70da67289b6ee1
+      internalID: 1264364225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7aa812dca7cab47acf36539a9387c8
+      internalID: 628845050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_38
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dc4dde11f443c49a680e5c6dc5c752
+      internalID: -765281829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced5bef0e1c1a724c81604f64de22e17
+      internalID: -1469524822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e177e291b5c9d3438536250fba6680f
+      internalID: -1244563729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d145fce38d0db40b31bd233c6f52d3
+      internalID: -1703357312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_42
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b4ef37ed1a2804d99a5e2344fad89f
+      internalID: 2137392122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_43
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c47d3b91fd114386565b6c2d1b799
+      internalID: 47193259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_44
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eac09639c20ba4299264a2e985882a
+      internalID: 177219115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_45
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26b2b4ab9317545b357902bb51ba9e
+      internalID: -1058389255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_46
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b0118338542ad4997ce8bce4e3591f
+      internalID: -1213925600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_47
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e297e75988f7e7a48a17df8b3781d07d
+      internalID: 334466917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_48
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd8d60f74d78f6448adcea0f7ef7e40
+      internalID: 793763475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_49
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a757ea5eb950468472139966abbb7
+      internalID: -838662841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_50
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 106
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b296cd0208e1a9f40bc26169eb4bf212
+      internalID: -1612682999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_51
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68faef4ccf9ec74d957df57068124b2
+      internalID: -607712221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_52
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147cc11c11b4f78419046265809b9e7f
+      internalID: 1017852689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f7f0fb8b7ce09408a59f2e686e9a67
+      internalID: 495799166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_54
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b2629fda295a419871b928d520e23
+      internalID: 1024217827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_55
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dce9f57457962143ba2b7b74a945c36
+      internalID: 561915367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004de257b82c0c2468e3a6796f69680f
+      internalID: -887260669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_57
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1a4f6740914b6458a034c05683a95b
+      internalID: 1839455897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_58
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7493dc5dd88af14996c0b1959c40d10
+      internalID: -1527455726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_59
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec44d23b14bd7f74bb176a50a89ba839
+      internalID: -1207121478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_60
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19ee232efae7b4a9242e001e6e71a7
+      internalID: -1927269945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_61
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa454d3ed2a184094423c7047efe20
+      internalID: 1982185877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_62
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb0af1d345381f449ea2fb79a824e73
+      internalID: 1466583273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_63
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45c996fb6783a24d97870311e4496f4
+      internalID: 1118478089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_64
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b7467052a30340a5a6d12cbfe2440
+      internalID: -2115902645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_65
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336822372b0fbb4baef8cf8cc52fbe4
+      internalID: -1894929413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_66
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20756ee659057874ca5b512025bf66cd
+      internalID: -169504399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_67
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 53
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4e44f3664897849a087f2450e2b075
+      internalID: -193122486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_68
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9630eed6cf3b0c4b8c877661ba5545a
+      internalID: -58002062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5027a5ca861fe7243815173f4e174102
+      internalID: -1743355270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_70
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16f6ea0687b8ba4bad98ed83e771823
+      internalID: 94244310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_71
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef05322fb6230f44dbcc5afd30fb4f22
+      internalID: -961274105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_72
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8989d27e627a144aa381b1ea9fcb253
+      internalID: 483180868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_73
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a04266d0dcd41489c1d5d9641ff13c
+      internalID: -2072513835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_74
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea050a11d2d8e794aa0bd121e0ffbfd8
+      internalID: 1203009311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_75
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f75dce1719af4347ab7939bbf1609d7
+      internalID: 478135098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_76
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475fa99b4a4cd0b4987e4feb4b91d3c8
+      internalID: -270888447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_77
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e2dd633dc72c48a30e480cd67e930
+      internalID: -941068402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_78
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eedfdb0915d3ad438ac5915f1749f7a
+      internalID: 1937082490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_79
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a9179ac3dd4a44db717966307d9d6e
+      internalID: 594302735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_80
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7b081d6377088438458cbc1618a46c
+      internalID: 143159661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_81
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e543576a2f976f42a78107ba180bd2b
+      internalID: -929057687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_82
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcc5f06f5830df4e8cd7bfbbf5bca2a
+      internalID: -1883231320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_83
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cc64686d5e5a64a86ab0d616020fe3
+      internalID: 1096890021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush
+        Threepwood 2_84
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6e012c355a48a49822fedad9973a73
+      internalID: 2013235145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d4737d805654dea46ba55995812ac087
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":17.0,"y":5.0},"gridSpriteSize":{"x":44.0,"y":53.0},"gridSpriteOffset":{"x":7.0,"y":3.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_0: 7782913945791207459
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_1: 411291463
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_10: -583079885
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_11: 246643580
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_12: 497482340
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_13: -1024804841
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_14: 496070197
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_15: -1563644857
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_16: 1378566391
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_17: -935726177
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_18: -283838339
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_19: 1132901466
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_2: 1338475564
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_20: -1008468604
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_21: 2069739572
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_22: -1347537229
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_23: -534279153
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_24: -1144286420
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_25: -1918003168
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_26: -1557677193
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_27: -1270991894
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_28: -1912733887
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_29: -1922691257
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_3: -1760136535
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_30: -2078787985
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_31: 1549509403
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_32: 1582230204
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_33: -571300666
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_34: 1413736302
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_35: -2096088543
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_36: 1264364225
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_37: 628845050
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_38: -765281829
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_39: -1469524822
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_4: 361091463
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_40: -1244563729
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_41: -1703357312
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_42: 2137392122
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_43: 47193259
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_44: 177219115
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_45: -1058389255
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_46: -1213925600
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_47: 334466917
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_48: 793763475
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_49: -838662841
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_5: -350084270
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_50: -1612682999
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_51: -607712221
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_52: 1017852689
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_53: 495799166
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_54: 1024217827
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_55: 561915367
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_56: -887260669
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_57: 1839455897
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_58: -1527455726
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_59: -1207121478
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_6: 2120233135
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_60: -1927269945
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_61: 1982185877
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_62: 1466583273
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_63: 1118478089
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_64: -2115902645
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_65: -1894929413
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_66: -169504399
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_67: -193122486
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_68: -58002062
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_69: -1743355270
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_7: 1013135672
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_70: 94244310
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_71: -961274105
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_72: 483180868
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_73: -2072513835
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_74: 1203009311
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_75: 478135098
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_76: -270888447
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_77: -941068402
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_78: 1937082490
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_79: 594302735
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_8: 603772030
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_80: 143159661
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_81: -929057687
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_82: -1883231320
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_83: 1096890021
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_84: 2013235145
+      PC _ Computer - Monkey Island 2_ LeChuck's Revenge - Characters - Guybrush Threepwood 2_9: 740392189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
