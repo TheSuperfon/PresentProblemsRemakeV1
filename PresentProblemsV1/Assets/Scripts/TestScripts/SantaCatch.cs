@@ -102,10 +102,12 @@ public class SantaCatch : MonoBehaviour
             if (SceneChecks.DinoChoice)
             {
                 DinoCutscene.SetActive(true);
+                SantaAnim.SetBool("Dino", true);
             }
             else
             {
                 BlockCutscene.SetActive(true);
+                SantaAnim.SetBool("Blocks", true);
             }
 
 
