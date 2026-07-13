@@ -16,6 +16,8 @@ public class TestMovement : MonoBehaviour
 
     private Animator animator;
 
+    private Vector2 StuckDistance;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -78,12 +80,17 @@ public class TestMovement : MonoBehaviour
     void UpdateAnimation()
     {
         float distance = Vector2.Distance(transform.position, GoToLocation);
+
+        if (Vector2.Distance(StuckDistance, transform.position) == 0) { animator.SetFloat("distance", 0f);  return; }
+
         animator.SetFloat("distance", distance);
         if (distance > 0.01)
         {
             Vector3 direction = transform.position - new Vector3(GoToLocation.x, GoToLocation.y, transform.position.z);
             float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
             animator.SetFloat("angle", angle);
+            StuckDistance = transform.position;
+
             if (angle >= 180)
             {
                 transform.localScale = new Vector3(1, 1, 1);
