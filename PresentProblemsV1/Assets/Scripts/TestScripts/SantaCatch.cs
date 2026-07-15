@@ -19,6 +19,7 @@ public class SantaCatch : MonoBehaviour
     public GameObject BlockCutscene;
     AudioSource santaCatchSound;
     //public bool IsDinoToy;
+    public Vector3 ToyLocation;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -109,8 +110,8 @@ public class SantaCatch : MonoBehaviour
                 BlockCutscene.SetActive(true);
                 SantaAnim.SetBool("Blocks", true);
             }
-
-
+            
+            SantaAnim.gameObject.transform.localPosition = ToyLocation;
         }
 
         Debug.Log(SceneChecks.CouchWarning);
