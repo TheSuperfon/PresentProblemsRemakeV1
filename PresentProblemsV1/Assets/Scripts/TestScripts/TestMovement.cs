@@ -18,10 +18,12 @@ public class TestMovement : MonoBehaviour
 
     private Vector2 StuckDistance;
 
+    bool updateAnimate = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        updateAnimate = false;
         animator = GetComponentInChildren<Animator>();
 
         agent = GetComponent<NavMeshAgent>();
@@ -70,6 +72,7 @@ public class TestMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GoToLocation = new Vector2(mousePos.x, mousePos.y);
+            updateAnimate = true;
         }
         agent.SetDestination(new Vector3(GoToLocation.x, GoToLocation.y, transform.position.z));
 
@@ -79,6 +82,20 @@ public class TestMovement : MonoBehaviour
 
     void UpdateAnimation()
     {
+        if (updateAnimate)
+        {
+            if (transform.position.x < GoToLocation.x) //to the right
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+            updateAnimate = false;
+        }
+        
+
         float distance = Vector2.Distance(transform.position, GoToLocation);
 
         if (Vector2.Distance(StuckDistance, transform.position) == 0) { animator.SetFloat("distance", 0f);  return; }
@@ -91,7 +108,7 @@ public class TestMovement : MonoBehaviour
             animator.SetFloat("angle", angle);
             StuckDistance = transform.position;
 
-            if (angle >= 180)
+            /*if (angle >= 180)
             {
                 transform.localScale = new Vector3(1, 1, 1);
             }
@@ -130,7 +147,7 @@ public class TestMovement : MonoBehaviour
             else
             {
 
-            }
+            }*/
 
 
         }
