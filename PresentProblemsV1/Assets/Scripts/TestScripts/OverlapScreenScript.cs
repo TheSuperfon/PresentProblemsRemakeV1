@@ -10,26 +10,21 @@ public class OverlapScreenScript : MonoBehaviour
     public bool LookAt;
 
     public GameObject playerRef;
-    //public SpriteRenderer Highlight;
     public bool activeScript = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         LookAt = false;
-        //Highlight.color = new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0);
     }
 
     private void OnMouseOver()
     {
-        //Debug.Log("over");
         if (Input.GetMouseButtonDown(0))
         {
             LookAt = true;
 
         }
-
-        //StartCoroutine(DoAThingOverTime(new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 0), new Color(Highlight.color.r, Highlight.color.g, Highlight.color.b, 100), 3));
     }
 
     private void OnMouseEnter()
@@ -99,8 +94,7 @@ public class OverlapScreenScript : MonoBehaviour
             Cam.transform.position = LastCameraPos;
 
         }
-        //Debug.Log(playerRef);
-
+        
     }
 
 
