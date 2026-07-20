@@ -6,10 +6,7 @@ using UnityEngine.SceneManagement;
 public class TestMovement : MonoBehaviour
 {
 
-    /*public Transform player;
-    public float moveSpeed;
-    public float moveAccuracy;*/
-
+    
     public NavMeshAgent agent;
     public Vector2 GoToLocation;
     public Camera Cam;
@@ -60,14 +57,7 @@ public class TestMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            SceneChecks.CouchWarning = true;
-
-
-        }
-
-
+        
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
@@ -108,46 +98,7 @@ public class TestMovement : MonoBehaviour
             animator.SetFloat("angle", angle);
             StuckDistance = transform.position;
 
-            /*if (angle >= 180)
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-            }
-            else if (angle >= 135 && angle < 180)
-            {
-                transform.localScale = new Vector3(-1, 1, 1); // down right
-            }
-            else if (angle >= 90 &&  angle < 135)
-            {
-                transform.localScale = new Vector3(1, 1, 1); // walk down
-            }
-            else if (angle >= 45 && angle < 90)
-            {
-                transform.localScale = new Vector3(1, 1, 1); // down left
-            }
-            else if (angle >= 0 && angle < 45)
-            {
-                transform.localScale = new Vector3(-1, 1, 1); //walk left
-            }
-            else if (angle >= -45 && angle < 0)
-            {
-                transform.localScale = new Vector3(1, 1, 1); // back left
-            }
-            else if (angle >= -90 && angle < -45)
-            {
-                transform.localScale = new Vector3(1, 1, 1); // walk up
-            }
-            else if (angle >= -135 && angle < -90)
-            {
-                transform.localScale = new Vector3(-1, 1, 1); // back right
-            }
-            else if (angle >= -180 && angle < -135)
-            {
-                transform.localScale = new Vector3(1, 1, 1); // walk right
-            }
-            else
-            {
-
-            }*/
+            
 
 
         }
@@ -157,31 +108,5 @@ public class TestMovement : MonoBehaviour
     }
 
     
-
-    public void InteractButton()
-    {
-        Debug.Log("test");
-    }
-
-    /*public void newroom()
-    {
-        agent.ResetPath();
-        //Debug.Log("test");
-        agent.SetDestination(new Vector3(transform.position.x, transform.position.y, transform.position.z));
-
-    }
-
-    public IEnumerator MoveToPoint(Vector2 point)
-    {
-        Vector2 positionDifference = point - (Vector2)player.position;
-        while (positionDifference.magnitude > moveAccuracy)
-        {
-            player.Translate(moveSpeed * positionDifference.normalized * Time.deltaTime);
-            yield return null;
-        }
-
-        yield return null;
-    }*/
-
 
 }
