@@ -27,26 +27,14 @@ public class HighlightingOverlap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Highlighted)
-        {
-
-            //Debug.Log("RRR");
-        }
-
-        if (!transparent)
-        {
-            interfere.
-        }*/
+        
     }
 
-    private void OnMouseOver()
-    {
-        //Debug.Log("eeeeeeeeeeee");
-    }
+    
 
     private void OnMouseEnter()
     {
-        //Debug.Log("wwww");
+        
         Highlighted = true;
         
         if (!transparent)

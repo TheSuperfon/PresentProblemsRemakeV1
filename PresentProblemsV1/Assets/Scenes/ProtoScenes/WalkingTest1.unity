@@ -1921,6 +1921,7 @@ MonoBehaviour:
   CameraNewPos: {x: 0, y: 0, z: -10}
   Cam: {fileID: 1176041246}
   SceneToLoad: 
+  SceneAsset: {fileID: 0}
   SceneBool: 0
   higherGround: 0
   IsStairs: 0
@@ -2379,6 +2380,7 @@ MonoBehaviour:
   CameraNewPos: {x: 0, y: 0, z: -10}
   Cam: {fileID: 1176041246}
   SceneToLoad: 
+  SceneAsset: {fileID: 0}
   SceneBool: 0
   higherGround: 0
   IsStairs: 0
@@ -3760,6 +3762,7 @@ MonoBehaviour:
   CameraNewPos: {x: 0, y: 0, z: -10}
   Cam: {fileID: 1176041246}
   SceneToLoad: 
+  SceneAsset: {fileID: 0}
   SceneBool: 0
   higherGround: 0
   IsStairs: 0
@@ -7194,6 +7197,7 @@ MonoBehaviour:
   CameraNewPos: {x: 0, y: 20, z: -10}
   Cam: {fileID: 1176041246}
   SceneToLoad: UpstairsTest1
+  SceneAsset: {fileID: 102900000, guid: 554990d7268db6b40a4fe7602cd8628c, type: 3}
   SceneBool: 1
   higherGround: 0
   IsStairs: 0
@@ -8336,6 +8340,7 @@ MonoBehaviour:
   CameraNewPos: {x: -30, y: 0, z: -10}
   Cam: {fileID: 1176041246}
   SceneToLoad: 
+  SceneAsset: {fileID: 0}
   SceneBool: 0
   higherGround: 0
   IsStairs: 0
@@ -12577,6 +12582,7 @@ MonoBehaviour:
   CameraNewPos: {x: 30, y: 0, z: -10}
   Cam: {fileID: 1176041246}
   SceneToLoad: 
+  SceneAsset: {fileID: 0}
   SceneBool: 0
   higherGround: 0
   IsStairs: 0

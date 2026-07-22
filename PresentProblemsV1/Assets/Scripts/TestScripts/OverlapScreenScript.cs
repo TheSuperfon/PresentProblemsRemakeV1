@@ -39,7 +39,7 @@ public class OverlapScreenScript : MonoBehaviour
 
     
 
-    IEnumerator DoAThingOverTime(Color start, Color end, float duration)
+    IEnumerator DoAThingOverTime(Color start, Color end, float duration) 
     {
         for (float t = 0f; t < duration; t += Time.deltaTime)
         {

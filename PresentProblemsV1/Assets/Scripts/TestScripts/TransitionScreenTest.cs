@@ -1,4 +1,5 @@
 using NUnit.Framework.Interfaces;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Assertions.Must;
@@ -11,6 +12,7 @@ public class TransitionScreenTest : MonoBehaviour
     public Vector3 CameraNewPos;
     public Camera Cam;
     public string SceneToLoad;
+    public SceneAsset SceneAsset;
 
     public bool SceneBool;
     public bool higherGround;

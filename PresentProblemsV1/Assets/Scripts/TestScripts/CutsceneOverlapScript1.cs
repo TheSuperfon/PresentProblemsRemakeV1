@@ -142,15 +142,7 @@ public class CutsceneOverlapScript1 : MonoBehaviour
     }
 
 
-    public void oof(UnityEngine.Video.VideoPlayer vp)
-    {
-
-    }
-
-
-
-
-
+    
 
 
 
